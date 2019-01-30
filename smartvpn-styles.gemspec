@@ -1,12 +1,12 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "smartvpn_version/version"
+require 'smartvpn_version/version'
 
 Gem::Specification.new do |spec|
-  spec.name = %q{smartvpn-styles}
+  spec.name = %q{smartvpn_styles}
   spec.version = SmartVpnStyles::VERSION
   spec.summary = %q{Custom assets for smartvpn billing}
-  spec.require_paths = ["lib"]
+  # spec.require_paths = ["lib"]
   spec.authors  = ['Smart vpn']
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
