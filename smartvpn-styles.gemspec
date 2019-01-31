@@ -1,6 +1,6 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'smartvpn_version/version'
+require 'smartvpn_styles/version'
 
 Gem::Specification.new do |spec|
   spec.name = %q{smartvpn_styles}
