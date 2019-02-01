@@ -1,4 +1,5 @@
 require 'autoprefixer-rails'
+require 'rails'
 
 module SmartVpnStyles
   module Rails
